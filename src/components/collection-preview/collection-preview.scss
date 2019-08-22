@@ -1,0 +1,16 @@
+.collection-preview {
+
+  &:not(:last-child) {
+    margin-bottom: 2rem;
+  }
+
+  .title {
+    font-size: 3rem;
+  }
+
+  .preview {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 2rem;
+  }
+}
