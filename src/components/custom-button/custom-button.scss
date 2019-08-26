@@ -1,0 +1,24 @@
+.btn-group {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-gap: 3rem;
+}
+
+.custom-button {
+  width: 100%;
+  height: 5.5rem;
+  border: none;
+  outline: none;
+  color: white;
+  background: black;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 2rem;
+  font-family: 'Open Sans Condensed', sans-serif;
+
+  &.google-sign-in {
+    background: #3737e4;
+  }
+}
