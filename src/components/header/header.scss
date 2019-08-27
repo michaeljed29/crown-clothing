@@ -4,6 +4,13 @@ header {
   align-items: center;
   padding: 2rem 0;
 
+  nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+  }
+
   .nav-list {
     display: flex;
     
