@@ -17,8 +17,20 @@
   justify-content: center;
   font-size: 2rem;
   font-family: 'Open Sans Condensed', sans-serif;
+  transition: all 0.2s ease;
 
   &.google-sign-in {
     background: #3737e4;
+  }
+
+  &.inverted {
+    background: white;
+    color: black;
+  }
+
+  &.inverted:hover {
+    background: black;
+    color: white;
+    opacity: 1;
   }
 }
