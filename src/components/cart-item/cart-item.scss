@@ -1,0 +1,15 @@
+.cart-item {
+  width: 100%;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-gap: 1.5rem;
+  align-items: center;
+  margin-bottom: 1rem;
+
+
+  .item-details {
+    font-size: 2rem;
+    display: flex;
+    flex-direction: column;
+  }
+}
