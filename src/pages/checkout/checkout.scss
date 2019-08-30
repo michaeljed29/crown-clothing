@@ -1,0 +1,32 @@
+.checkout-page .table-wrapper {
+  
+  padding: 5rem 0; 
+  max-width: 85rem;
+  margin: 0 auto;
+
+  table {
+    width: 100%;
+    margin: 2rem auto 0;
+
+    thead tr {
+      display: grid;
+      grid-template-columns: repeat(5, 1fr);
+      justify-items: start;
+      border-bottom: 1px solid #000;
+      padding-bottom: 1rem;
+      grid-gap: 1.5rem;
+
+      th {
+        font-size: 1.6rem;
+      }
+    }
+  }
+
+  .total {
+    font-size: 4.5rem;
+    font-weight: normal;
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 1rem;
+  }
+}

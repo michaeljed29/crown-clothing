@@ -1,0 +1,14 @@
+.checkout-item {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  // grid-template-rows: 15rem;
+  align-items: center;
+  font-size: 2rem;
+  padding: 1.5rem 0;
+  border-bottom: 1px solid #000;
+  grid-gap: 1.5rem;
+
+  img {
+    display: block;
+  }
+}

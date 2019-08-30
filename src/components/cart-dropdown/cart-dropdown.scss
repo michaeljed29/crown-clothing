@@ -12,8 +12,16 @@
   flex-direction: column;
   justify-content: space-between;
 
+  .empty-message {
+    font-size: 2rem;
+    margin: auto;
+  }
+
   .cart-list {
     overflow-y: auto;
     height: 35rem;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
   }
 }
