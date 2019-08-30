@@ -8,6 +8,20 @@
   border-bottom: 1px solid #000;
   grid-gap: 1.5rem;
 
+
+  .arrow {
+    cursor: pointer;
+  }
+
+  .value {
+    margin: 0 1rem;
+  }
+
+  .remove-button {
+    display: inline-block;
+    cursor: pointer;
+  }
+
   img {
     display: block;
   }
