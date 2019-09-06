@@ -1,0 +1,15 @@
+h2 {
+  margin: 1rem 0 3rem;
+  font-size: 3rem;
+}
+
+h2.center {
+  display: flex;
+  justify-content: center;
+}
+
+.items {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-gap: 3.5rem 2rem;
+}
