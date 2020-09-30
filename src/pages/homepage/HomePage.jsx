@@ -1,6 +1,6 @@
 import React from "react";
 import "./HomePage.scss";
-
+import MessengerCustomerChat from "react-messenger-customer-chat";
 import MenuList from "../../components/menu-list/menu-list";
 
 const HomePage = () => {
@@ -8,6 +8,10 @@ const HomePage = () => {
     <div className="homepage">
       <MenuList />
       <p>Test deploy</p>
+      <MessengerCustomerChat
+        pageId="Jed-103182668222971"
+        appId="3401405209940982"
+      />
     </div>
   );
 };
