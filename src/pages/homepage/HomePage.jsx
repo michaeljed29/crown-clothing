@@ -7,7 +7,7 @@ const HomePage = () => {
   return (
     <div className="homepage">
       <MenuList />
-      <p>Test deploy</p>
+      <p>Test</p>
       <MessengerCustomerChat
         pageId="Jed-103182668222971"
         appId="3401405209940982"
